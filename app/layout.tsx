@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Header } from "@/components/layout/header";
 import { Background } from "@/components/layout/background";
 import { Footer } from "@/components/layout/footer";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased pb-12`}
       >
+        <GoogleTagManager gtmId="G-092PW91PGZ" />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -42,7 +44,6 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
         <Background />
-
       </body>
     </html>
   );

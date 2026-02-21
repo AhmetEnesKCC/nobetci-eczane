@@ -36,7 +36,7 @@ export const HomeForm = ({
   const sortedProvinces = usePrioritizedSort(provinces, {
     key: "name",
     mode: "insensitive",
-    pritorizeList: ["istanbul", "izmir", "ankara"],
+    prioritizeList: ["istanbul", "izmir", "ankara"],
   });
 
   const provincesOptions = sortedProvinces.map((province) => ({

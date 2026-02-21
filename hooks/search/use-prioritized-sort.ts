@@ -3,7 +3,7 @@ import { useMemo } from "react";
 export type PriotirizeListPropsModeType = "case-sensitive" | "insensitive";
 
 export type PriotirizeListProps<T> = {
-  pritorizeList: string[];
+  prioritizeList: string[];
   mode: PriotirizeListPropsModeType;
   key: keyof T;
 };
@@ -16,7 +16,7 @@ export const usePrioritizedSort = <T>(
     const isPrioritized = (val: T) => {
       const key = props.key;
 
-      const index = props.pritorizeList.findIndex((v) =>
+      const index = props.prioritizeList.findIndex((v) =>
         props.mode === "case-sensitive"
           ? v === val[key]
           : v.toLocaleLowerCase(["tr"]) ===

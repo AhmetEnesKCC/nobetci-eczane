@@ -1,6 +1,3 @@
-Bu standart şablon README'den kurtulup projene yakışır, havalı ve profesyonel bir README.md hazırlayalım.
-
-Uygulamanın şubat ayında geliştirildiğini, **Next.js**, **shadcn/ui** ve **CollectAPI** kullanılarak Türkiye'deki nöbetçi eczaneleri haritalandırdığını biliyoruz. Görseldeki şık tasarımı da göz önünde bulundurarak aşağıdaki Markdown şablonunu doğrudan kopyalayabilirsin:
 
 ```markdown
 <div align="center">

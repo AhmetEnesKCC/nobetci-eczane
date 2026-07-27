@@ -1,21 +1,3 @@
-
-```markdown
-<div align="center">
-  <h1 align="center">Nöbetçi Eczane</h1>
-  <p align="center">
-    <b>Türkiye genelindeki şehir ve ilçelerde güncel nöbetçi eczanelere anında ulaşmanızı sağlayan modern web uygulaması.</b>
-  </p>
-  
-  <p align="center">
-    <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
-  </p>
-</div>
-
-<br>
-
 > **eczanesizde.com**, kullanıcıların seçtikleri il ve ilçelerdeki nöbetçi eczaneleri en güncel verilerle listeleyen, konum tabanlı mesafe hesaplama ve yol tarifi özellikleri sunan modern bir arayüz deneyimidir.
 
 ---
@@ -47,11 +29,12 @@ Bu proje, modern web geliştirme ekosistemindeki güncel araçlarla inşa edilmi
 Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 1. Depoyu klonlayın:
-   ```bash
-   git clone [https://github.com/KULLANICI_ADINIZ/eczanesizde.git](https://github.com/KULLANICI_ADINIZ/eczanesizde.git)
-   cd eczanesizde
+```bash
+git clone [https://github.com/KULLANICI_ADINIZ/eczanesizde.com.git](https://github.com/KULLANICI_ADINIZ/eczanesizde.com.git)
+cd eczanesizde.com
 
 ```
+
 
 2. Bağımlılıkları yükleyin:
 ```bash
@@ -65,7 +48,7 @@ pnpm install
 
 
 3. Ortam değişkenlerini (`.env.local`) ayarlayın:
-Proje kök dizininde bir `.env.local` dosyası oluşturun ve gerekli API anahtarınızı ekleyin (Örn: CollectAPI anahtarı).
+Proje kök dizininde bir `.env.local` dosyası oluşturun:
 ```env
 NEXT_PUBLIC_API_KEY=senin_api_anahtarin
 
@@ -89,5 +72,4 @@ pnpm dev
 
 ## 📄 Lisans
 
-Bu proje MIT lisansı altında korunmaktadır. Detaylı bilgi için `LICENSE` dosyasına göz atabilirsiniz.
-
+Bu proje MIT lisansı altında korunmaktadır.
